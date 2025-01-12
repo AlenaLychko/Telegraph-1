@@ -42,7 +42,8 @@ body {
 .download-item {
   padding: 30px;
   border-radius: 10px;
-  box-shadow: 0px 0px 25px 0px var(--dark-blue);
+ box-shadow: 0px 0px 25px 0px #00000008;
+
 }
 .download-list-header {
   font-size: 22px;
@@ -67,3 +68,109 @@ body {
 .download-download{
     width: 21px;
 }
+.stuff-icon{
+  width: 60px;
+  height: 60px;
+}
+.sharing {
+}
+.stuff {
+}
+.sharing-list {
+  display: flex;
+ 
+}
+.sharing-item {
+}
+.sharing-list-header {
+  font-family: "Roboto",sans-serif;
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 1.42;
+}
+.sharing-text {
+  width: 466px;
+  margin-right: 110px;
+  font-family: "Roboto",sans-serif;
+   font-weight: 300;
+  font-size: 18px;
+  line-height: 1.55;
+}
+.security {
+  display: flex;
+  align-items: center;
+}
+.security-list {
+  display: flex;
+  flex-wrap: wrap;
+ gap: 30px;
+}
+.security-item {
+  padding: 30px;
+  border-radius: 10px;
+  width: 260px;
+  box-shadow: 0px 0px 25px 0px #00000008;
+
+
+}
+.security-list-header {
+  font-family: "Roboto",sans-serif;
+   font-weight: 500;
+  font-size: 18px;
+  line-height: 1.17;
+}
+.security-text {
+   font-family: "Roboto",sans-serif;
+   font-weight: 300;
+   font-size: 14px;
+  line-height: 1.62;
+}
+.position-list{
+  display: flex;
+}
+.position{
+width: 200px;
+height: 200px;
+}
+.position:nth-child(1){
+  background-color: #ff0043;
+
+
+  position: static;
+  /*значение по умолчанием*/
+}
+.position:nth-child(2){
+  background-color: #2f25b8;
+
+  position: relative;
+  bottom: 20px;
+  right: 20px;
+
+  /*относительное позиционование, может перемещатся в 
+  разные стороны видносно
+   отца но пространство 
+  от него не пропадает */
+}
+.position:nth-child(3){
+  background-color: #399e1f;
+
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  /**/
+}
+.position:nth-child(4){
+  background-color: #188497;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  /**/
+}
+.position:nth-child(5){
+  background-color: #cc8324;
+
+  position: sticky;
+  /**/
+}
+
