@@ -150,6 +150,7 @@ height: 200px;
   разные стороны видносно
    отца но пространство 
   от него не пропадает */
+  
 }
 .position:nth-child(3){
   background-color: #399e1f;
@@ -158,20 +159,25 @@ height: 200px;
   position: absolute;
   top: 50%;
   left: 50%;
-  /**/
+ 
 }
 .position:nth-child(4){
   background-color: #188497;
   position: fixed;
   bottom: 0;
   right: 0;
-  /**/
+  
 }
 .position:nth-child(5){
   background-color: #cc8324;
 
   position: sticky;
-  /**/
-}
-*/
 
+}
+
+
+.section > h2{
+  background-color: #399e1f;
+  position: sticky;
+  top: 0;
+}
