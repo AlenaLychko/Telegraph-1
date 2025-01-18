@@ -137,8 +137,8 @@ height: 200px;
 
 
   position: static;
-  /*значение по умолчанием*/
-}
+  /*значение по умолчанием
+}*/
 .position:nth-child(2){
   background-color: #2f25b8;
 
