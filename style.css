@@ -5,17 +5,7 @@
 ul {
   list-style: none;
 }
-h1,
-h2,
-h3,
-h4,
-h5,
-p,
-ul,
-li,
-a,
-button,
-form {
+h1,h2,h3,h4,h5,p,ul,li,a,button,form {
   margin: 0;
   padding: 0;
 }
@@ -50,6 +40,7 @@ body {
   font-weight: 500;
   line-height: 1.17;
   margin-bottom: 15px;
+  margin-bottom: 30px;
 }
 .download-text {
   margin-bottom: 20px;
@@ -82,6 +73,10 @@ body {
 }
 .sharing-item {
 }
+.sharing-text-wrap{
+display: block;
+
+}
 .sharing-list-header {
   font-family: "Roboto",sans-serif;
   font-weight: 500;
@@ -96,22 +91,31 @@ body {
   font-size: 18px;
   line-height: 1.55;
 }
-.security {
+
+.security-list {
+  position: relative;
+  display: flex;
+flex-direction: column;
+
+
+}
+.sharing-container{
   display: flex;
   align-items: center;
 }
-.security-list {
-  display: flex;
-  flex-wrap: wrap;
- gap: 30px;
-}
 .security-item {
+
   padding: 30px;
   border-radius: 10px;
   width: 260px;
   box-shadow: 0px 0px 25px 0px #00000008;
 
 
+}
+.security-item:nth-child(2){
+  position: absolute;
+  right: -350px;
+  top: 100px;
 }
 .security-list-header {
   font-family: "Roboto",sans-serif;
@@ -125,59 +129,61 @@ body {
    font-size: 14px;
   line-height: 1.62;
 }
-/*.position-list{
+.keep {
   display: flex;
-}
-.position{
-width: 200px;
-height: 200px;
-}
-.position:nth-child(1){
-  background-color: #ff0043;
-
-
-  position: static;
-  /*значение по умолчанием
-}*/
-.position:nth-child(2){
-  background-color: #2f25b8;
-
+  gap: 222px;
+  align-items: center;
   position: relative;
-  bottom: 20px;
-  right: 20px;
-
-  /*относительное позиционование, может перемещатся в 
-  разные стороны видносно
-   отца но пространство 
-  от него не пропадает */
-  
 }
-.position:nth-child(3){
-  background-color: #399e1f;
+.keep-img{
 
-
+  padding-top: 75px;
+  padding-bottom: 116px;
+  padding-right: 150px;
+}
+.keep-img::before{
   position: absolute;
-  top: 50%;
-  left: 50%;
- 
-}
-.position:nth-child(4){
-  background-color: #188497;
-  position: fixed;
-  bottom: 0;
-  right: 0;
-  
-}
-.position:nth-child(5){
-  background-color: #cc8324;
 
-  position: sticky;
-
-}
+left: 234px;
+  top: -20px;
+  z-index: -1; 
+   content: "";
+ display: block;
+ width: 249px;
+ height: 249px;
+ background-image: url(./images/Oval.png);
 
 
-.section > h2{
-  background-color: #399e1f;
-  position: sticky;
-  top: 0;
 }
+.keep-img::after{
+  position: absolute;
+ left: 139px;
+ bottom:0px;
+  z-index: 1; 
+   content: "";
+ display: block;
+ width: 414px;
+ height: 434px;
+ background-image: url(./images/group.png);
+ background-position: center;
+ background-size: contain;
+
+
+}
+
+.keep-img-wrap {
+}
+.keep-text-wrap {
+  max-width: 466px;
+}
+.keep-title {
+  margin-bottom: 30px;
+}
+.keep-text {
+  font-family: "Roboto";
+font-size: 18px;
+font-weight: 300;
+line-height: 1.55;
+
+}
+
