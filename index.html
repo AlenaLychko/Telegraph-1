@@ -10,7 +10,19 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-
+<button type="button" class="btn-open" data-modal-open>модалка</button>
+<div class="backdrop is-hidden" data-modal>
+    <div class="modal">
+        <button class="btn-close" data-modal-close >x</button>
+        <p>Lorem ipsum, dolor sit amet
+            consectetur adipisicing elit. 
+            Doloremque ipsam obcaecati
+             consectetur reiciendis expedita, 
+             libero corporis, rerum consequatur 
+             sit quis nam officia magnam dolore ad recusandae distinctio
+              laborum, nihil nobis.</p>
+    </div>
+</div>
     <ul class="position-list">
         <li class="position"></li>
         <li class="position"></li>
@@ -112,6 +124,6 @@
         </div>
       </section>
     </main>
-
+<script src="./modal.js"></script>
 </body>
 </html>
