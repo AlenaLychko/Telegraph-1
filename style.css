@@ -234,7 +234,7 @@ width: 100%;
 height: 100%;
 background-color: #29dc0e82;
  transform: translateY(0);
-transition: transform 500ms  ease;
+transition: transform 1000ms  ease;
 
 
 position: absolute;
