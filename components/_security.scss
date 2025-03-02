@@ -1,0 +1,29 @@
+.security-list {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.security-item {
+  padding: 30px;
+  border-radius: 10px;
+  width: 260px;
+  box-shadow: 0px 0px 25px 0px #00000008;
+}
+.security-item:nth-child(2) {
+  position: absolute;
+  right: -350px;
+  top: 100px;
+}
+.security-list-header {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.17;
+}
+.security-text {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 1.62;
+}

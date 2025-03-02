@@ -1,0 +1,49 @@
+keep {
+  display: flex;
+  gap: 222px;
+  align-items: center;
+  position: relative;
+}
+.keep-img {
+  padding-top: 75px;
+  padding-bottom: 116px;
+  padding-right: 150px;
+}
+.keep-img::before {
+  position: absolute;
+
+  left: 234px;
+  top: -20px;
+  z-index: -1;
+  content: "";
+  display: block;
+  width: 249px;
+  height: 249px;
+  background-image: url(./images/Oval.png);
+}
+.keep-img::after {
+  position: absolute;
+  left: 139px;
+  bottom: 0px;
+  z-index: 1;
+  content: "";
+  display: block;
+  width: 414px;
+  height: 434px;
+  background-image: url(./images/group.png);
+  background-position: center;
+  background-size: contain;
+}
+
+.keep-text-wrap {
+  max-width: 466px;
+}
+.keep-title {
+  margin-bottom: 30px;
+}
+.keep-text {
+  font-family: "Roboto";
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 1.55;
+}

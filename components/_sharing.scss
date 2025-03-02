@@ -1,0 +1,30 @@
+.stuff-icon {
+  width: 60px;
+  height: 60px;
+}
+
+.sharing-list {
+  display: flex;
+}
+
+.sharing-text-wrap {
+  display: block;
+}
+.sharing-list-header {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 1.42;
+}
+.sharing-text {
+  width: 466px;
+  margin-right: 110px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 1.55;
+}
+.sharing-container {
+  display: flex;
+  align-items: center;
+}
