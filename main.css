@@ -1,34 +1,4 @@
 @charset "UTF-8";
-header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-header-btn {
-  padding: 15px 20px;
-  background-color: #FF0043;
-  font-family: "Roboto", sans-serif;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.2;
-  letter-spacing: 0px;
-  color: #fff;
-  border-radius: 23px;
-  border-color: transparent;
-}
-header-btn:hover {
-  background-color: rgb(80, 14, 14);
-}
-
-.logo {
-  font-family: "Roboto", sans-serif;
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 1.1;
-  letter-spacing: 0px;
-  color: var(--red);
-}
-
 .container {
   width: 1170px;
   margin: 0 auto;
@@ -49,20 +19,50 @@ h1, h2, h3, h4, h5, p, ul, li, a, button, form {
   padding: 0;
 }
 
-.download-list {
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header-btn {
+  padding: 15px 20px;
+  background-color: #ff0043;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: 0px;
+  color: #fff;
+  border-radius: 23px;
+  border-color: transparent;
+}
+header-btn:hover {
+  background-color: rgb(80, 14, 14);
+}
+
+.logo {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.1;
+  letter-spacing: 0px;
+  color: #ff0043;
+}
+
+.download__list {
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 30px;
 }
 
-.download-item {
+.download__item {
   padding: 30px;
   border-radius: 10px;
   box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.031372549);
 }
 
-.download-list-header {
+.download__list__header {
   font-size: 22px;
   font-weight: 500;
   line-height: 1.17;
@@ -70,11 +70,11 @@ h1, h2, h3, h4, h5, p, ul, li, a, button, form {
   margin-bottom: 30px;
 }
 
-.download-text {
+.download__text {
   margin-bottom: 20px;
 }
 
-.download-list-link {
+.download__list__link {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -87,7 +87,7 @@ h1, h2, h3, h4, h5, p, ul, li, a, button, form {
   background-image: url(./images/symbol-defs.svg);
 }
 
-.download-download {
+.download__download {
   width: 21px;
 }
 
@@ -129,17 +129,17 @@ h1, h2, h3, h4, h5, p, ul, li, a, button, form {
   display: flex;
   align-items: center;
 }
-.hero-title {
+.hero__title {
   font-family: "Roboto";
   font-weight: 500;
   font-size: 60px;
   line-height: 1.4;
   margin-bottom: 28px;
 }
-.hero-text {
+.hero__text {
   margin-bottom: 50px;
 }
-.hero-btn {
+.hero__btn {
   font-family: "Source Sans Pro";
   font-weight: 700;
   font-size: 16px;
@@ -151,10 +151,13 @@ h1, h2, h3, h4, h5, p, ul, li, a, button, form {
   padding: 20px 70px;
   border-color: transparent;
 }
-.hero-btn:hover {
+.hero__btn--orange {
+  background-color: orange;
+}
+.hero__btn:hover {
   background-color: aquamarine;
 }
-.hero-wrap {
+.hero__wrap {
   margin-right: 38px;
   width: 520px;
 }
