@@ -1,17 +1,17 @@
 .hero {
   display: flex;
   align-items: center;
-  &-title {
+  &__title {
     font-family: "Roboto";
     font-weight: 500;
     font-size: 60px;
     line-height: 1.4;
     margin-bottom: 28px;
   }
-  &-text {
+  &__text {
     margin-bottom: 50px;
   }
-  &-btn {
+  &__btn {
     font-family: "Source Sans Pro";
     font-weight: 700;
     font-size: 16px;
@@ -22,11 +22,14 @@
     border-radius: 30px;
     padding: 20px 70px;
     border-color: transparent;
+    &--orange{
+      background-color: orange;
+    }
   }
-  &-btn:hover {
+  &__btn:hover {
     background-color: aquamarine;
   }
-  &-wrap {
+  &__wrap {
     margin-right: 38px;
     width: 520px;
   }
