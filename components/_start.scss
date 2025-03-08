@@ -1,7 +1,7 @@
 .start {
   display: block;
   margin: 0 auto;
-  background-color: #00194a;
+  background-color: $darkblue-color;
   border-radius: 25px;
   width: 1139px;
   height: 349px;
@@ -37,7 +37,7 @@
     line-height: 1.2;
     letter-spacing: 0px;
     padding: 20px 51px;
-    background-color: #ff0043;
+    background-color: $red-color;
     border-color: transparent;
     border-radius: 30px;
     color: #fff;

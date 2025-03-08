@@ -49,11 +49,6 @@ h1, h2, h3, h4, h5, p, ul, li, a, button, form {
   padding: 0;
 }
 
-:root {
-  --red: #ff0043;
-  --dark-blue: #00194a;
-}
-
 .download-list {
   display: flex;
   align-items: center;
@@ -83,7 +78,7 @@ h1, h2, h3, h4, h5, p, ul, li, a, button, form {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  color: var(--dark-blue);
+  color: #00194a;
   opacity: 0.5;
 }
 
